@@ -39,18 +39,38 @@ body {
 
 /* config of the content of the page*/
 
-#content {
-    position: relative;
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
     background: #fffdfa;
-    position: absolute;
     margin-top: 1rem;
     padding: 1.2rem;
     left: 15%;
     width: 40rem;
     text-align: left;
+}
+
+.date {
+    font-size: 80%;
+    color: #aaaaaa;
+}
+
+.read-more {
+    color: #ffc300;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
 }
 
 img {
@@ -60,4 +80,22 @@ img {
 
 h1 {
     color: #ffc300;
+}
+
+#side-content {
+    width: 20rem;
+}
+
+.side-content {
+    background: #fffdfa;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 15rem
+}
+
+h3 {
+    background-color: #aaaaaa;
+    color: #474747;
+    padding: 0.2rem 0.4rem;
 }
