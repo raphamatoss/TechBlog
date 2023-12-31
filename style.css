@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Helvetica', Arial, sans-serif;
+    background: rgb(233, 233, 233);
+}
+
+/* config of the header and the menu */
+
+#header {
+    background-color: #ffc300;
+    padding: 1rem;
+    text-align: center;
+}
+
+#logo {
+    padding: 1rem;
+}
+
+#menu {
+    padding: 0.5rem;
+}
+
+.menu {
+    padding: 1.2rem;
+    color: #fffdfa;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu:hover {
+    color: #474747;
+}
+
+/* config of the content of the page*/
+
+#content {
+    position: relative;
+}
+
+#main-content {
+    background: #fffdfa;
+    position: absolute;
+    margin-top: 1rem;
+    padding: 1.2rem;
+    left: 15%;
+    width: 40rem;
+    text-align: left;
+}
+
+img {
+    margin: 3% auto;
+    width: 40rem;
+}
+
+h1 {
+    color: #ffc300;
+}
